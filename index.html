@@ -3,80 +3,89 @@
     <title>Cadastro de Candidatos JobsNET</title>
     <head>Cadastre aqui seus dados para as mais diversas vagas de </head>
     <body>
-<form>
-        <div>
-            <label for="Inscrição">Id:</label> \\automatizar nro do candidato\\
-            <input type="text" id="Inscrição" />
-        </div>
-        
-        <div>
-            <label for="nome">Nome Completo:</label> ||obrigatório||
-            <input type="text" id="Nome" />
-        </div>
-        <div>
-            <label for="profissao">Profissão:</label> ||obrigatório||
-            <input type="text" id="profissao" />
-        </div>
-        <div>
-            <label for="cargo">Cargo Pretendido:</label> 
-            <input type="text" id="cargo" />
-        </div>
-        <div>
-            <label for="nascimento">Data de Nascimento:</label> ||obrigatório||
-            <input type="number" id="nascimento" />
-        </div>
-        <div>
-            <label for="estado civil">Estado Civil:</label> 
-            <input type="text" id="estado civil" />
-        </div>
-        <div>
-            <label for="sexo">Sexo:</label> 
-            <input type="text" id="sexo" />
-        </div>
-        <div>
-            <label for="rua">Rua:</label> ||obrigatório||
-            <input type="text" id="rua" />
-        </div>
-        <div>
-            <label for="nro">Número:</label> ||obrigatório||
-            <input type="text" id="nro" />
-        </div>
-        <div>
-            <label for="bairro">Bairro:</label> ||obrigatório||
-            <input type="text" id="bairro" />
-        </div>
-        <div>
-            <label for="cidade">Cidade:</label> ||obrigatório||
-            <input type="text" id="cidade" />
-        </div>
-        <div>
-            <label for="estado">Estado:</label> 
-            <input type="text" id="estado" />
-        </div>
-        <div>
-            <label for="CEP">Cep:</label> ferramenta de busca ||obrigatório||
-            <input type="number" id="CEP" />
-        </div>
-        <div>
-            <label for="telefone">Telefone:</label> 
-            <input type="number" id="telefone" />
-        </div>
-        <div>
-            <label for="celular">Celular:</label> ||obrigatório||
-            <input type="number" id="celular" />
-        </div>
-        <div>
-            <label for="email">E-mail:</label> ||obrigatório||
-            <input type="email" id="email" />
-        </div>
-        <div>
-            <label for="identidade">Identidade:</label>
-            <input type="number" id="identidade" />
-        </div>
-        <div>
-            <label for="CPF">CPF:</label> ||obrigatório||
-            <input type="number" id="CPF" />
-        </div>
-    </form>
-</body>
+        Dados pessoais
+        <form>
+            <div>
+                <label for="Inscrição">Id:</label> \\automatizar nro do candidato\\
+                <input type="number" id="Inscrição" />
+            </div>
+            
+            <div>
+                <label for="nome">Nome Completo:</label> ||obrigatório||
+                <input type="text" id="Nome" />
+            </div>
+            <div>
+                <label for="nascimento">Data de Nascimento:</label> ||obrigatório||
+                <input type="date" type="month" type="year" id="nascimento" />
+            </div>
+            <div>
+                <label for="estado civil">Estado Civil:</label> 
+                <input type="text" id="estado civil" />
+            </div>
+            <div>
+                <label for="sexo">Sexo:</label> 
+                <input type="text" id="sexo" />
+            </div>
+                        <div>
+                <label for="celular">Celular:</label> ||obrigatório||
+                <input type="number" id="celular" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label> ||obrigatório||
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="identidade">Identidade:</label>
+                <input type="number" id="identidade" />
+            </div>
+            <div>
+                <label for="CPF">CPF:</label> ||obrigatório||
+                <input type="number" id="CPF" />
+            </div>
+        </form>
+        Dados residenciais
+        <form>
+            <div>
+                <label for="rua">Rua:</label> ||obrigatório||
+                <input type="text" id="rua" />
+            </div>
+            <div>
+                <label for="nro">Número:</label> ||obrigatório||
+                <input type="text" id="nro" />
+            </div>
+            <div>
+                <label for="bairro">Bairro:</label> ||obrigatório||
+                <input type="text" id="bairro" />
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label> ||obrigatório||
+                <input type="text" id="cidade" />
+            </div>
+            <div>
+                <label for="estado">Estado:</label> 
+                <input type="text" id="estado" />
+            </div>
+            <div>
+                <label for="CEP">Cep:</label> ferramenta de busca ||obrigatório||
+                <input type="number" id="CEP" />
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label> 
+                <input type="number" id="telefone" />
+            </div>
+            
+        </form>
+        Dados profissionais
+        <form>
+            <div>
+                <label for="profissao">Profissão:</label> ||obrigatório||
+                <input type="text" id="profissao" />
+            </div>
+            <div>
+                <label for="cargo">Cargo Pretendido:</label> 
+                <input type="text" id="cargo" />     
+            </div>
+        </form>
+        <button>Enviar Inscrição</button>
+    </body>
 </html>
