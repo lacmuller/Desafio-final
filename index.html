@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="Estilo.css">
     <title>Cadastro de Candidatos JobsNET</title>
-    <head>Cadastre aqui seus dados para as mais diversas vagas de </head>
     <body>
-        <h1>Dados pessoais</h1>
+        <header>
+            <img src="LogoJobsNET.png" height="35px" width="115px" style="padding: 10px 0 0 10px;">
+                <ul>
+                <li>Sobre nós</li>
+                <li>Sugestões</li>
+                <li>Contato</li>
+            </ul>
+            </header>
+        <p>Cadastre aqui seus dados para as mais diversas vagas de emprego.</p>
+        <h3>Dados pessoais</h3> 
         <form>
             <div>
                 <label for="Inscrição">Id:</label> \\automatizar nro do candidato\\
@@ -12,7 +21,7 @@
             
             <div>
                 <label for="nome">Nome Completo:</label> ||obrigatório||
-                <input type="text" id="Nome" />
+                <input type="text" id="nome" />
             </div>
             <div>
                 <label for="nascimento">Data de Nascimento:</label> ||obrigatório||
@@ -43,7 +52,7 @@
                 <input type="number" id="CPF" />
             </div>
         </form>
-        <h1>Dados residenciais</h1>
+        <h3>Dados residenciais</h3>
         <form>
             <div>
                 <label for="rua">Rua:</label> ||obrigatório||
@@ -75,7 +84,7 @@
             </div>
             
         </form>
-        <h1>Dados profissionais</h1>
+        <h3>Dados profissionais</h3>
         <form>
             <div>
                 <label for="profissao">Profissão:</label> ||obrigatório||
@@ -83,9 +92,10 @@
             </div>
             <div>
                 <label for="cargo">Cargo Pretendido:</label> 
-                <input type="text" id="cargo" />     
+                <input type="text" id="cargo" /> 
+                <button>Quero meu próximo emprego!</button>
             </div>
         </form>
-        <button>Enviar Inscrição</button>
+        
     </body>
 </html>
