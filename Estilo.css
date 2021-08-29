@@ -1,20 +1,17 @@
-p{
-    padding-left: 20px;
-}
 header{
     display: flex;  
     justify-content: space-between;
     border-bottom: solid;
     border-width: 5px;
-}
+    }
 header ul{
     list-style-type: none;
     display: flex;
-    padding: 0 10px 0 0;    
-}
+    padding: 0 10px 0 5px;  
+    }
 li{
-    padding: 0 20px 0 0;
-
+    cursor: pointer;
+    margin: 0 20px 0 0;
     }
 body {
     background-color: white;
@@ -42,4 +39,6 @@ button{
     border-radius: 20px 20px 20px 20px;
     text-shadow: 0 1px 1px rgba(153, 91, 153, 0.959);
     color:rgba(153, 91, 153, 0.959);
+    font-weight: 600;
+    cursor: pointer;
     }

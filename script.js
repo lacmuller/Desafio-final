@@ -1,18 +1,35 @@
---package json--
+const express = require ('express');
+const mongoose = require('mongoose');
+const swaggerUI = require('swagger-ui-express');
+const swaggerDocs = require('.swagger.json');
+const app = express;
 
-document.getElementById(`nome`).textContent
-document.getElementById(`nascimento`).dataset
-estado_civil = document.getElementById(`estado civil`).textContent
 
-dados = {'nome': nome,
-                'nascimento': nascimento,
-                'Estado Civil': estado_civil,
-            }
+mongoose.connect('mongodb+srv://lacmuller:<8rnKab3f29B4zPv>@cluster0.9fylf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+    useNewUrlParser: true,
+    useCreateIndex:true})
 
-dados[nome] = nome 
-basededados['nascimento'] = nascimento           
-dados_id
-Basa de Dados
-MEMBROS = [ dados' ]
-basdededados[membros] = MEMBROS
-json.dump(basededados)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
