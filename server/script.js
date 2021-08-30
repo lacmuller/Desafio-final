@@ -6,8 +6,7 @@ const app = express;
 
 
 mongoose.connect('mongodb+srv://lacmuller:<8rnKab3f29B4zPv>@cluster0.9fylf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-    useNewUrlParser: true,
-    useCreateIndex:true})
+   
 
 
 

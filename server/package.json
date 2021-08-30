@@ -1,0 +1,26 @@
+{
+  "name": "desafio-final",
+  "version": "1.0.0",
+  "description": "link para as páginas do header - contato sugestões sobre nós",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacmuller/Desafio-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacmuller/Desafio-final/issues"
+  },
+  "homepage": "https://github.com/lacmuller/Desafio-final#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
